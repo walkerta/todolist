@@ -1,20 +1,88 @@
 <!doctype html>
 <html lang="en" data-framework="javascript">
-  <head>
-    <meta charset="utf-8">
-    <title>Simple Todo List</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <section class="todoapp">
-      <header class="header">
-        <h1>todos</h1>
-        <input class="new-todo" placeholder="What needs to be done?" autofocus>
-      </header>
-      <section class="main">
-        <ul class="todo-list"></ul>
-      </section>
+
+<head>
+  <meta charset="utf-8">
+  <title>Simple Todo List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <section class="todoapp">
+    <header class="header">
+      <h1>todos</h1>
+      <input class="new-todo" placeholder="What needs to be done?" autofocus>
+    </header>
+    <section class="main">
+
+      <ul class="todo-list"></ul>
+
+      <br>
+      <ul id="MyChecklist">
+        <br>
+        <li>
+          <div class="view"><label>Hit the gym</label></div>
+        </li>
+        </br>
+        <br>
+        <li>
+          <div class="view"><label>Pay bills</label>
+            <div>
+        </li>
+        </br>
+        <br>
+        <li>
+          <div class="view"><label>Meet Debbie</label></div>
+        </li>
+        </br>
+        <br>
+        <li>
+          <div class="view"><label>Buy Eggs</label>
+            <div>
+        </li>
+        </br>
+        <br>
+        <li>
+          <div class="view"><label>Do homework for the Iron Yard</label></div>
+        </li>
+        </br>
+        <br>
+        <li>
+          <div class="view"><label>Organzie Kitchen</label>
+            <div>
+        </li>
+        </br>
+      </ul>
+
+      </br>
+
+      <li>
+        <div class="view"><label>Task Text Here</label></div>
+      </li>
+
     </section>
     <script src="main.js"></script>
-  </body>
+
+    <script>
+      document.getElementById("demo").addEventListener("keypress", myFunction);
+
+      function myTodolist() {
+        document.getElementById("demo").style.backgroundColor = "red";
+      }
+
+      <
+      div id = "one" > one < /div>
+      var d1 = document.getElementById('one');
+      d1.insertAdjacentHTML('beforeend', '<div id="two">two</div>');
+
+      console.console.log("Organzie Kitchen");
+      console.console.log(["Hit the gym", "Pay Bills", "Meet Debbie", "Buy Eggs", "Do homework for the Iron Yard", "Organize Kitchen"]);
+      console.console.console.log("Pay Bills");
+      console.console.console.log("Meet Debbie");
+      console.console.log("Buy Eggs");
+      console.console.log("Do homework for the Iron Yard");
+    </script>
+
+</body>
+
 </html>
